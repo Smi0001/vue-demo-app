@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="container text-left">
         <span>{{ msg }} {{ price }}</span>
         <button class="btn" @click="decrease()">Decrement</button>
         <button class="btn" @click="increase()">Increment</button>

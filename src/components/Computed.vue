@@ -2,8 +2,8 @@
     <div class="text-left container">
         <h3>Counter computed:
             {{view}}
-            <i class="fas m-rl-5 fa-plus-circle btn-success cur-p" v-on:click="counter++"></i>
-            <i class="fas m-rl-5 fa-minus-circle btn-danger cur-p" v-on:click="counter--"></i>
+            <i class="fas m-rl-5 fa-plus-circle text-success cur-p" v-on:click="counter++"></i>
+            <i class="fas m-rl-5 fa-minus-circle text-danger cur-p" v-on:click="counter--"></i>
         </h3>
     </div>
 </template>
@@ -31,10 +31,10 @@ export default {
     .cur-p {
         cursor: pointer;
     }
-    .btn-success:hover {
-        color: #1c7e33;
+    .text-success:hover {
+        color: #1c7e33 !important;
     }
-    .btn-danger:hover {
-        color: #640912;
+    .text-danger:hover {
+        color: #640912 !important;
     }
 </style>
