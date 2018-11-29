@@ -11,7 +11,6 @@
     <Form />
   <hr> 
     <Computed counter="0" />
-  <!-- <hr> -->
   </div>
 </template>
 
